@@ -1,0 +1,1011 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Magic fields 1.5.8.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-26 17:55+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mike Castro Demaria <mcd@supersonique.net>\n"
+"Language-Team: Magic fields\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: MF_PostTypesPage.php:18
+msgid "Post Types"
+msgstr "Types d'article"
+
+#: MF_PostTypesPage.php:18
+msgid "Post types"
+msgstr "Types d'article"
+
+#: MF_PostTypesPage.php:21
+msgid "Hi you can create and manage Post Types here"
+msgstr "Bonjour, vous pouvez créer et gérer les type d'articles ici"
+
+#: MF_PostTypesPage.php:67
+msgid "Edit"
+msgstr "Editer"
+
+#: MF_PostTypesPage.php:67
+msgid "Delete"
+msgstr "Effacer"
+
+#: MF_PostTypesPage.php:74
+msgid "Manage Custom Types"
+msgstr "Gérer les types personnalisé"
+
+#: MF_PostTypesPage.php:78
+#: MF_PostTypesPage.php:89
+#, fuzzy
+msgid "ID"
+msgstr "Identifiant"
+
+#: MF_PostTypesPage.php:79
+#: MF_PostTypesPage.php:90
+msgid "Post Type Name"
+msgstr "Nom du type"
+
+#: MF_PostTypesPage.php:80
+#: MF_PostTypesPage.php:91
+msgid "Capability Type"
+msgstr "Capacité Type"
+
+#: MF_PostTypesPage.php:81
+#: MF_PostTypesPage.php:92
+msgid "Actions"
+msgstr "Actions"
+
+#: MF_PostTypesPage.php:97
+msgid "Add a new Custom Type"
+msgstr "Ajouter un nouveau champ personnalisé"
+
+#: MF_PostTypesPage.php:115
+msgid "Add New Post Type"
+msgstr "Ajouter un nouveau type personnalisé"
+
+#: MF_PostTypesPage.php:119
+#: RCCWP_CreateCustomFieldPage.php:75
+#: RCCWP_CustomFieldPage.php:63
+msgid "Name"
+msgstr "Nom"
+
+#: MF_PostTypesPage.php:121
+msgid "Put the name of your Post Type"
+msgstr "Mettez le nom de votre type d'article"
+
+#: MF_PostTypesPage.php:124
+#, fuzzy
+msgid "Description"
+msgstr "Description"
+
+#: MF_PostTypesPage.php:126
+msgid "description about for what is your custom post type"
+msgstr "description de votre type d'article personnalisé"
+
+#: MF_PostTypesPage.php:129
+#, fuzzy
+msgid "Is Public"
+msgstr "est public"
+
+#: MF_PostTypesPage.php:130
+msgid "This post type is public?"
+msgstr "Ce type d'article est public?"
+
+#: MF_PostTypesPage.php:132
+#, fuzzy
+msgid "Show UI"
+msgstr "Mode UI"
+
+#: MF_PostTypesPage.php:133
+msgid "This type will be displayed into the Administration menu?"
+msgstr "Ce type personalisé sera affiché dans le menu Administration?"
+
+#: MF_PostTypesPage.php:134
+msgid "Exclude Search"
+msgstr "Exclure de la recherche"
+
+#: MF_PostTypesPage.php:135
+msgid "This element will be exclude in the search page"
+msgstr "Cet élément sera exclu de la page de recherche"
+
+#: MF_PostTypesPage.php:139
+msgid "Customize which Fields will be displayed in this post type"
+msgstr "Personnaliser les champs qui seront affichés dans ce type d'article"
+
+#: MF_PostTypesPage.php:142
+#: MF_PostTypesPage.php:143
+#, fuzzy
+msgid "Title"
+msgstr "Titre"
+
+#: MF_PostTypesPage.php:144
+#, fuzzy
+msgid "Editor"
+msgstr "Éditeur"
+
+#: MF_PostTypesPage.php:145
+msgid "The user put here the content of the post"
+msgstr "L'utilisateur met ici le contenu de l'article"
+
+#: MF_PostTypesPage.php:146
+msgid "Comments"
+msgstr "Commentaires"
+
+#: MF_PostTypesPage.php:147
+msgid "This post type have comments"
+msgstr "Avis sur cet article"
+
+#: MF_PostTypesPage.php:148
+#, fuzzy
+msgid "Trackbacks"
+msgstr "Rétroliens"
+
+#: MF_PostTypesPage.php:149
+#, fuzzy
+msgid "This post type have trackbacks"
+msgstr "Rétroliens pour ce post"
+
+#: MF_PostTypesPage.php:150
+#, fuzzy
+msgid "Revisions"
+msgstr "Révisions"
+
+#: MF_PostTypesPage.php:151
+msgid "This post type have revisions"
+msgstr "Révision sur cet article"
+
+#: MF_PostTypesPage.php:152
+#: MF_PostTypesPage.php:153
+#, fuzzy
+msgid "Author"
+msgstr "Auteur"
+
+#: MF_PostTypesPage.php:154
+#, fuzzy
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: MF_PostTypesPage.php:155
+msgid "This post type have Excerpt"
+msgstr "Cet article a un extrait"
+
+#: MF_PostTypesPage.php:156
+#, fuzzy
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: MF_PostTypesPage.php:157
+msgid "This post type have Thumbnail"
+msgstr "Cet article a une miniature"
+
+#: MF_PostTypesPage.php:158
+#: MF_PostTypesPage.php:159
+#, fuzzy
+msgid "Page Attributes"
+msgstr "Attributs de la page"
+
+#: MF_thumb.php:29
+#, fuzzy
+msgid "Could not read image size"
+msgstr "Impossible de lire la taille de l&rsquo;image"
+
+#: MF_thumb.php:61
+#: MF_thumb.php:64
+#: MF_thumb.php:70
+#, fuzzy
+msgid "Resize path invalid"
+msgstr "Le chemin de recadrage est invalide"
+
+#: RCCWP_Application.php:392
+#: RCCWP_Application.php:397
+msgid "Magic Fields is not ready yet."
+msgstr "Magic Fields n'est pas disponible"
+
+#: RCCWP_Application.php:392
+msgid "must create the following folders (and must chmod 777):"
+msgstr "merci de crée le dossier suivant (avec un chmod 777)"
+
+#: RCCWP_Application.php:397
+msgid "The following folders must be writable (usually chmod 777 is neccesary):"
+msgstr "Le dossier suivant doit permettre l'écriture (utilisez chmod 777 si nécéssaire)"
+
+#: RCCWP_CreateCustomFieldPage.php:37
+#: RCCWP_CreateCustomFieldPage.php:208
+msgid "Create Custom Field"
+msgstr "Crée un champ personalisé"
+
+#: RCCWP_CreateCustomFieldPage.php:37
+#: RCCWP_CustomFieldPage.php:37
+msgid "In Group"
+msgstr "Dans le groupe"
+
+#: RCCWP_CreateCustomFieldPage.php:44
+#: RCCWP_CustomFieldPage.php:45
+msgid "A field with the same name already exists in this write panel. Please choose a different name."
+msgstr "Un champ avec le même nom existe déjà dans ce panneau d'écriture. Choisissez un nom différent SVP."
+
+#: RCCWP_CreateCustomFieldPage.php:64
+#: RCCWP_CustomFieldPage.php:59
+msgid "Label"
+msgstr "Intitulé"
+
+#: RCCWP_CreateCustomFieldPage.php:68
+msgid ""
+"Type a label for the field. The label of the field is displayed\n"
+"\t\t\t\t\tbeside the field in Write Panel page."
+msgstr ""
+"Saisissez un libellé pour le champ. L'étiquette du champ est affiché \n"
+"\t\t\t\t\t à côté du champ dans la page de configuration."
+
+#: RCCWP_CreateCustomFieldPage.php:81
+msgid ""
+"Type a unique name for the field, the name must be unique among all fields \n"
+"\t\t\t\t\tin this panel. The name of the field is the key by which you can retrieve \n"
+"\t\t\t\t\tthe field value later."
+msgstr ""
+"Saisissez un nom unique pour le domaine, le nom doit être unique parmi tous les champs \n"
+"\t\t\t\t\t dans ce groupe. Le nom du champ est la clé par lequel vous pouvez récupérer \n"
+"\t\t\t\t la valeur du champ plus tard. "
+
+#: RCCWP_CreateCustomFieldPage.php:90
+#: RCCWP_CustomFieldPage.php:67
+msgid "Help text"
+msgstr "Texte d'aide"
+
+#: RCCWP_CreateCustomFieldPage.php:92
+#: RCCWP_CustomFieldPage.php:68
+msgid "If set, this will be displayed in a tooltip next to the field label"
+msgstr "S'il est défini, il sera affiché dans une info-bulle à côté de l'étiquette du champ"
+
+#: RCCWP_CreateCustomFieldPage.php:96
+#: RCCWP_CustomFieldPage.php:71
+msgid "Can be duplicated"
+msgstr "Peut-être dupliqué"
+
+#: RCCWP_CreateCustomFieldPage.php:101
+#: RCCWP_CustomFieldPage.php:75
+msgid "Order"
+msgstr "Ordre"
+
+#: RCCWP_CreateCustomFieldPage.php:107
+#: RCCWP_CustomFieldPage.php:96
+msgid "Required"
+msgstr "Requis"
+
+#: RCCWP_CreateCustomFieldPage.php:110
+#: RCCWP_CustomFieldPage.php:99
+msgid "Not Required - can be empty"
+msgstr "Non requis (peut-être vide)"
+
+#: RCCWP_CreateCustomFieldPage.php:111
+#: RCCWP_CustomFieldPage.php:100
+msgid "Required - can not be empty"
+msgstr "Requis (ne dois pas être vide)"
+
+#: RCCWP_CreateCustomFieldPage.php:117
+#: RCCWP_CustomFieldPage.php:226
+msgid "Type"
+msgstr "Type"
+
+#: RCCWP_CreateCustomFieldPage.php:140
+#: RCCWP_CustomFieldPage.php:256
+msgid "Please fill in the name and the label of the field"
+msgstr "Compléter le nom et l'étiquette du champ, SVP"
+
+#: RCCWP_CreateCustomFieldPage.php:163
+#: RCCWP_CustomFieldPage.php:329
+msgid "Css Class"
+msgstr "Classe CSS"
+
+#: RCCWP_CreateCustomFieldPage.php:176
+#: RCCWP_CreateCustomFieldPage.php:388
+#: RCCWP_CreateCustomGroupPage.php:21
+#: RCCWP_CreateCustomWritePanelPage.php:21
+#: RCCWP_CustomFieldPage.php:343
+msgid "Cancel"
+msgstr "Annuler"
+
+#: RCCWP_CreateCustomFieldPage.php:177
+msgid "Continue"
+msgstr "Continuer"
+
+#: RCCWP_CreateCustomFieldPage.php:243
+#: RCCWP_CustomFieldPage.php:109
+msgid "Size"
+msgstr "Taille"
+
+#: RCCWP_CreateCustomFieldPage.php:248
+#: RCCWP_CreateCustomFieldPage.php:272
+#: RCCWP_CustomFieldPage.php:133
+msgid "Evaluate Max Length"
+msgstr "Evaluer la longuer Max."
+
+#: RCCWP_CreateCustomFieldPage.php:260
+#: RCCWP_CustomFieldPage.php:116
+msgid "Height"
+msgstr "Hauteur"
+
+#: RCCWP_CreateCustomFieldPage.php:264
+#: RCCWP_CustomFieldPage.php:120
+msgid "Width"
+msgstr "Largeur"
+
+#: RCCWP_CreateCustomFieldPage.php:268
+#: RCCWP_CustomFieldPage.php:124
+#, fuzzy
+msgid "Hide Visual Editor for this field"
+msgstr "Si configuré, cacher l'éditeur visuel (multiligne)"
+
+#: RCCWP_CreateCustomFieldPage.php:273
+#: RCCWP_CustomFieldPage.php:134
+msgid "If set, Hide Visual Editor for this field"
+msgstr "Si configuré, cacher l'éditeur visuel (multiligne)"
+
+#: RCCWP_CreateCustomFieldPage.php:284
+#: RCCWP_CustomFieldPage.php:158
+msgid "Value min"
+msgstr "Valeur min."
+
+#: RCCWP_CreateCustomFieldPage.php:288
+#: RCCWP_CustomFieldPage.php:162
+msgid "Value max"
+msgstr "Valeur max."
+
+#: RCCWP_CreateCustomFieldPage.php:292
+#: RCCWP_CustomFieldPage.php:166
+msgid "Stepping"
+msgstr "Stepping"
+
+#: RCCWP_CreateCustomFieldPage.php:303
+#: RCCWP_CustomFieldPage.php:177
+msgid "Related Type Panel"
+msgstr "Interface de de relation type"
+
+#: RCCWP_CreateCustomFieldPage.php:328
+#: RCCWP_CreateCustomFieldPage.php:356
+#: RCCWP_CreateCustomFieldPage.php:368
+#: RCCWP_CustomFieldPage.php:198
+msgid "Options"
+msgstr "Options"
+
+#: RCCWP_CreateCustomFieldPage.php:331
+#: RCCWP_CustomFieldPage.php:201
+msgid "Separate each option with a newline."
+msgstr "Séparez chaque option avec un saut de ligne."
+
+#: RCCWP_CreateCustomFieldPage.php:335
+#: RCCWP_CustomFieldPage.php:205
+msgid "Default Value"
+msgstr "Valeur par défaut"
+
+#: RCCWP_CreateCustomFieldPage.php:341
+#: RCCWP_CustomFieldPage.php:212
+msgid "Separate each value with a newline."
+msgstr "Séparez chaque valeur avec un saut de ligne."
+
+#: RCCWP_CreateCustomFieldPage.php:358
+#: RCCWP_CustomFieldPage.php:314
+msgid "Max Height"
+msgstr "Hauteur maximum"
+
+#: RCCWP_CreateCustomFieldPage.php:359
+#: RCCWP_CustomFieldPage.php:318
+msgid "Max Width"
+msgstr "Largeur maximum"
+
+#: RCCWP_CreateCustomFieldPage.php:360
+#: RCCWP_CustomFieldPage.php:322
+msgid "Custom"
+msgstr "Option personnalisée"
+
+#: RCCWP_CreateCustomFieldPage.php:370
+#: RCCWP_CustomFieldPage.php:140
+msgid "Format"
+msgstr "Format"
+
+#: RCCWP_CreateCustomFieldPage.php:389
+#: RCCWP_CreateCustomGroupPage.php:22
+#: RCCWP_CreateCustomWritePanelPage.php:22
+msgid "Finish"
+msgstr "Terminé"
+
+#: RCCWP_CreateCustomGroupPage.php:14
+msgid "Create Custom Group"
+msgstr "Crée un groupe personnalisé"
+
+#: RCCWP_CreateCustomWritePanelPage.php:14
+msgid "Create Custom Write Panel"
+msgstr "Crée un panneau d'écriture personnalisé"
+
+#: RCCWP_CustomFieldPage.php:37
+msgid "Edit Custom Field"
+msgstr "Editer le champs personnalisé"
+
+#: RCCWP_CustomFieldPage.php:344
+msgid "Update"
+msgstr "Actualiser"
+
+#: RCCWP_CustomGroupPage.php:41
+msgid "Duplication"
+msgstr "Duplication"
+
+#: RCCWP_CustomGroupPage.php:42
+msgid "The group can be duplicated"
+msgstr "Ce groupe peut être dupliqué"
+
+#: RCCWP_CustomGroupPage.php:46
+msgid "Show as Expanded"
+msgstr "Affichage étendu"
+
+#: RCCWP_CustomGroupPage.php:47
+msgid "Display the full expanded group editing interface instead of the group summary"
+msgstr "Affichez le groupe d'édition complète de l'interface au lieu de la synthèse du groupe"
+
+#: RCCWP_CustomGroupPage.php:48
+#: RCCWP_CustomWritePanelPage.php:252
+msgid "Note: the group can still be collapsed by the user, this just determines the default state on load"
+msgstr "Remarque: le groupe peut encore être réduit par l'utilisateur, cele détermine seulement l'état par défaut lors du chargement"
+
+#: RCCWP_CustomGroupPage.php:65
+msgid "Edit Group"
+msgstr "Editer le groupe"
+
+#: RCCWP_CustomWritePanelPage.php:59
+msgid "Placement"
+msgstr "Placement"
+
+#: RCCWP_CustomWritePanelPage.php:80
+msgid "Post"
+msgstr "Article"
+
+#: RCCWP_CustomWritePanelPage.php:81
+msgid "Page"
+msgstr "Page"
+
+#: RCCWP_CustomWritePanelPage.php:95
+msgid "Assigned Categories"
+msgstr "Catégories assignées"
+
+#: RCCWP_CustomWritePanelPage.php:107
+msgid "Assigned Theme"
+msgstr "Theme assigné"
+
+#: RCCWP_CustomWritePanelPage.php:111
+msgid "Default Template"
+msgstr "Modèle par défaut"
+
+#: RCCWP_CustomWritePanelPage.php:128
+msgid "Page Parent"
+msgstr "Page parente"
+
+#: RCCWP_CustomWritePanelPage.php:131
+msgid "Main Page (no parent)"
+msgstr "Page principal (sans parent)"
+
+#: RCCWP_CustomWritePanelPage.php:136
+msgid "Quantity"
+msgstr "Quantité"
+
+#: RCCWP_CustomWritePanelPage.php:154
+msgid "Single"
+msgstr "Simple"
+
+#: RCCWP_CustomWritePanelPage.php:155
+msgid "Multiple"
+msgstr "Multiple"
+
+#: RCCWP_CustomWritePanelPage.php:160
+msgid "Standard Fields"
+msgstr "Champs standard"
+
+#: RCCWP_CustomWritePanelPage.php:200
+msgid "Advanced Fields"
+msgstr "Champs avancés"
+
+#: RCCWP_CustomWritePanelPage.php:250
+msgid "Top Level Fields Expanded"
+msgstr "Champs de premier niveau étendu"
+
+#: RCCWP_CustomWritePanelPage.php:251
+msgid "Display the full expanded group editing interface instead of the summary for fields created at the top level (fields not inside a group)"
+msgstr "Affichez le groupe d'édition complète de l'interface ouvert au lieu de la synthèse des champs créés au niveau supérieur (champs exterieur d'un groupe)"
+
+#: RCCWP_CustomWritePanelPage.php:285
+msgid "Write Panel"
+msgstr "Interface d'écriture"
+
+#: RCCWP_CustomWritePanelPage.php:356
+msgid "Are you sure you want to delete this custom Field?"
+msgstr "Êtes-vous de vouloir supprimer ce champ personnalisé"
+
+#: RCCWP_CustomWritePanelPage.php:361
+msgid ""
+"Are you sure you want to delete this field group?\\n"
+"\\n"
+"Note: All fields that are part of this group will also be deleted!"
+msgstr ""
+"Etes-vous sûr de vouloir supprimer ce groupe de champs?\\n"
+"\\n"
+"Attention: Tous les champs qui font partie de ce groupe seront également supprimés!"
+
+#: RCCWP_CustomWritePanelPage.php:373
+#: RCCWP_CustomWritePanelPage.php:556
+msgid "Export"
+msgstr "Exporter"
+
+#: RCCWP_CustomWritePanelPage.php:378
+msgid "Choose a Write Panel"
+msgstr "Choisir une interface d'écriture"
+
+#: RCCWP_CustomWritePanelPage.php:389
+msgid "Create a Group"
+msgstr "Crée un groupe"
+
+#: RCCWP_CustomWritePanelPage.php:390
+msgid "Create a Field"
+msgstr "Crée un champ"
+
+#: RCCWP_CustomWritePanelPage.php:407
+msgid "create field"
+msgstr "crée un champ"
+
+#: RCCWP_CustomWritePanelPage.php:408
+#, fuzzy
+msgid "delete"
+msgstr "supprimer"
+
+#: RCCWP_CustomWritePanelPage.php:418
+#: RCCWP_CustomWritePanelPage.php:540
+#, fuzzy
+msgid "Name (Order)"
+msgstr "Trier par noms"
+
+#: RCCWP_CustomWritePanelPage.php:432
+msgid "Save Order"
+msgstr "Sauvegarder l'ordre"
+
+#: RCCWP_CustomWritePanelPage.php:499
+msgid "Error uploading file!"
+msgstr "Erreur lors du téléchargement du fichier!"
+
+#: RCCWP_CustomWritePanelPage.php:511
+msgid "The Write Panel was imported successfuly."
+msgstr "L'interface d'écriture a été importée avec succès"
+
+#: RCCWP_CustomWritePanelPage.php:512
+msgid "Click here"
+msgstr "Cliquer ici"
+
+#: RCCWP_CustomWritePanelPage.php:512
+msgid "to edit the write panel."
+msgstr "pour éditer l'interface d'écriture"
+
+#: RCCWP_CustomWritePanelPage.php:526
+#: RCCWP_ManagementPage.php:26
+msgid "Custom Write Panel"
+msgstr "Interface d'écriture personnalisée"
+
+#: RCCWP_CustomWritePanelPage.php:530
+msgid "Import a Write Panel"
+msgstr "Importer une interface d'écriture"
+
+#: RCCWP_CustomWritePanelPage.php:531
+msgid "Create a Write Panel"
+msgstr "Crée une interface d'écriture"
+
+#: RCCWP_CustomWritePanelPage.php:541
+#, fuzzy
+msgid "Id"
+msgstr "Id"
+
+#: RCCWP_CustomWritePanelPage.php:554
+msgid "Edit Fields/Groups"
+msgstr "Editer les champs/groupes"
+
+#: RCCWP_CustomWritePanelPage.php:555
+msgid "Edit Write Panel"
+msgstr "Editer l'interface d'écriture"
+
+#: RCCWP_GetDuplicate.php:6
+#: RCCWP_GetFile.php:65
+#: RCCWP_removeFiles.php:9
+msgid "Athentication failed!"
+msgstr "l'authentification a échoué"
+
+#: RCCWP_GetFile.php:76
+#: RCCWP_upload.php:94
+msgid "Upload Unsuccessful"
+msgstr "Le téléchargement a échoué"
+
+#: RCCWP_GetFile.php:78
+#: RCCWP_upload.php:75
+msgid "Successful upload"
+msgstr "Le téléchargement a réussi"
+
+#: RCCWP_ManagementPage.php:19
+msgid "Assign Custom Write Panel"
+msgstr "Assigner une interface d'écriture personnalisée"
+
+#: RCCWP_ManagementPage.php:29
+#: RCCWP_OptionsPage.php:130
+msgid "(None)"
+msgstr "(Aucun)"
+
+#: RCCWP_ManagementPage.php:47
+msgid "Don't Assign Custom Write Panel"
+msgstr "Ne pas assigner une interface d'écriture personnalisée"
+
+#: RCCWP_ManagementPage.php:48
+msgid "Edit with Custom Write Panel"
+msgstr "Editer à travers l'interface d'écriture personnalisée"
+
+#: RCCWP_Menu.php:236
+msgid "Magic Fields > Manage"
+msgstr "Magic Fields > Gestion"
+
+#: RCCWP_Menu.php:236
+#: RCCWP_Menu.php:247
+msgid "Magic Fields"
+msgstr "Magic Fields"
+
+#: RCCWP_Menu.php:238
+msgid "Write Panels"
+msgstr "Interface d'écriture"
+
+#: RCCWP_Menu.php:247
+#: RCCWP_OptionsPage.php:37
+msgid "Magic Fields Options"
+msgstr "Options Magic Fields"
+
+#: RCCWP_Menu.php:260
+msgid "New"
+msgstr "Nouveau"
+
+#: RCCWP_Menu.php:261
+msgid "Manage"
+msgstr "Gérer"
+
+#: RCCWP_Menu.php:395
+msgid "New Post"
+msgstr "Nouvel article"
+
+#: RCCWP_Menu.php:396
+msgid "Drafts"
+msgstr "Brouillon"
+
+#: RCCWP_Menu.php:397
+msgid "New Page"
+msgstr "Nouvel page"
+
+#: RCCWP_Menu.php:398
+msgid "Upload"
+msgstr "téléversements"
+
+#: RCCWP_OptionsPage.php:41
+msgid "Write Panel Options"
+msgstr "Options de l'interface d'écriture"
+
+#: RCCWP_OptionsPage.php:45
+msgid "Condense Menu"
+msgstr "Menu condensé"
+
+#: RCCWP_OptionsPage.php:48
+msgid "This option removes the write panel from the main navigation and places them inside of the post and menu pages."
+msgstr "Cette option supprime le panneau d'écriture à partir du menu principal et les places à l'intérieur de l'article et des pages de menu."
+
+#: RCCWP_OptionsPage.php:53
+msgid "Hide non-standart content in Post Panel"
+msgstr "Masquer les contenu non-standard dans le Panneau de message"
+
+#: RCCWP_OptionsPage.php:56
+msgid "Hide posts made with Write panels in the edit section in the Post panel"
+msgstr "Masquer les articles faits avec une interface d'écriture dans la section“Modifier” dans le panneau d'article"
+
+#: RCCWP_OptionsPage.php:61
+msgid "Hide Post Panel"
+msgstr "Cacher l'interface d'écriture"
+
+#: RCCWP_OptionsPage.php:65
+msgid "Hide Wordpress Post panel"
+msgstr "Cacher l'interface d'article de Wordpress"
+
+#: RCCWP_OptionsPage.php:70
+msgid "Hide Page Panel"
+msgstr "Cacher l'interface de la page"
+
+#: RCCWP_OptionsPage.php:74
+msgid "Hide Wordpress Page panel"
+msgstr "Cacher l'interface de page de Wordpress"
+
+#: RCCWP_OptionsPage.php:79
+#: RCCWP_OptionsPage.php:83
+msgid "Hide Visual Editor (multiline)"
+msgstr "Cacher l'éditeur visuel (multiligne)"
+
+#: RCCWP_OptionsPage.php:88
+msgid "Do not remove tags tmce. (multiline)"
+msgstr "Ne retirez pas le balises Tmce. (multiligne)"
+
+#: RCCWP_OptionsPage.php:92
+msgid "Stop removing the &lt;p&gt; and &lt;br /&gt; tags when saving and show them in the HTML editor"
+msgstr "Empêcher la suppression des balises <p> et <br /> lors de l'enregistrement et les afficher dans l'éditeur HTML"
+
+#: RCCWP_OptionsPage.php:98
+msgid "Use Standard File Uploader (non-ajax)"
+msgstr "Utilisez le téléversement de fichier standard (non ajax)"
+
+#: RCCWP_OptionsPage.php:102
+msgid "Try using the standard file uploader if the AJAX loader fails to upload to your server"
+msgstr "Essayez d'utiliser le téléversement standard si le chargeur AJAX ne parvient pas à téléversé sur votre serveur"
+
+#: RCCWP_OptionsPage.php:107
+msgid "Editing Prompt"
+msgstr "Edition"
+
+#: RCCWP_OptionsPage.php:111
+msgid "Prompt when editing a Post not created with Custom Write Panel."
+msgstr "Prompt lors de l'édition d'un article non créé avec le panneau d'écriture personnalisée."
+
+#: RCCWP_OptionsPage.php:116
+msgid "Assign to Role"
+msgstr "Assigner un rôle"
+
+#: RCCWP_OptionsPage.php:120
+msgid ""
+"This option will create a capability for each write panel such that the write panel is accessible by the Administrator only by default.\n"
+"\t\t\t You can assign the write panel to other roles using "
+msgstr ""
+"Cette option permettra de créer une posibilité pour chaque panneau d'écriture, telle que, le panneau d'écriture est accessible par l'administrateur par défaut seulement.\n"
+"\t\t\t Vous pouvez assigner le panneau d'écriture à d'autres rôles en utilisant "
+
+#: RCCWP_OptionsPage.php:126
+msgid "Default Panel"
+msgstr "Interface par défaut"
+
+#: RCCWP_OptionsPage.php:147
+msgid "Extra"
+msgstr "Extra"
+
+#: RCCWP_OptionsPage.php:150
+msgid "Clear cache"
+msgstr "Vider le cache"
+
+#: RCCWP_OptionsPage.php:154
+msgid "delete all image thumbs"
+msgstr "Effacer toutes les miniatures"
+
+#: RCCWP_OptionsPage.php:160
+#: RCCWP_OptionsPage.php:163
+msgid "Uninstall Magic Fields"
+msgstr "Désinstaller Magic Fields"
+
+#: RCCWP_OptionsPage.php:167
+msgid "Type <strong>uninstall</strong> into the textbox, click <strong>Update Options</strong>, and all the tables created by this plugin will be deleted"
+msgstr "Saisir <strong>uninstall</strong> dans le champ texte, cliquer <strong>Sauvegard des réglages</strong>, et toutes les tables crée par ce plug-in seront supprimés"
+
+#: RCCWP_OptionsPage.php:172
+msgid "Update Options"
+msgstr "Sauvegard des réglages"
+
+#: RCCWP_SWFUpload.php:32
+#, fuzzy
+msgid "Upload Failed"
+msgstr "L&rsquo;envoi a échoué."
+
+#: RCCWP_SWFUpload.php:32
+msgid "Successful Upload"
+msgstr "L&rsquo;envoi a réusit"
+
+#: RCCWP_SWFUpload.php:32
+msgid "Choose File..."
+msgstr "Choisissez un fichier..."
+
+#: RCCWP_SWFUpload.php:32
+msgid "Replace File..."
+msgstr "Remplacer un fichier..."
+
+#: RCCWP_SWFUpload.php:32
+msgid "drop file here to upload"
+msgstr "déplacez le fichier ici pour l'envoyer"
+
+#: RCCWP_SWFUpload.php:37
+msgid "Or URL"
+msgstr "Ou URL"
+
+#: RCCWP_upload.php:25
+msgid "Authentication failed!"
+msgstr "Authentification impossible!"
+
+#: RCCWP_upload.php:92
+msgid "The uploaded file exceeds the maximum upload limit"
+msgstr "Le fichier téléchargé a une taille supérieure à la limite autorisée"
+
+#: RCCWP_upload.php:105
+msgid "Failed to upload the file!"
+msgstr "Impossible de télécharger le fichier!"
+
+#: RCCWP_upload.php:108
+msgid "Upload Unsuccessful!"
+msgstr "Téléchargement impossible!"
+
+#: RCCWP_upload.php:257
+#: RCCWP_upload.php:260
+msgid "File"
+msgstr "Fichier"
+
+#: RCCWP_WritePostPage.php:84
+msgid "Post was not published - "
+msgstr "Article non publié - "
+
+#: RCCWP_WritePostPage.php:84
+msgid "You have errors in some fields, please check the fields below."
+msgstr "Vous avez une erreur dans certains champs, vérifiez les champs suivants."
+
+#: RCCWP_WritePostPage.php:269
+msgid "You do not have sufficient permissions to access this custom write panel."
+msgstr "Vous n'avez pas les permissions suffisantes pour accéder à cette interface d'écriture."
+
+#: RCCWP_WritePostPage.php:409
+msgid "Expand All"
+msgstr "Tout étendre"
+
+#: RCCWP_WritePostPage.php:410
+msgid "Collapse All"
+msgstr "Tout réduire"
+
+#: RCCWP_WritePostPage.php:417
+#: RCCWP_WritePostPage.php:456
+msgid "Note: to save your changes you must also <strong>Publish</strong> or <strong>Update</strong>"
+msgstr "Remarque: pour enregistrer vos modifications, vous devez également <strong>Publier</ strong> ou <strong>Mettre à jour</ strong>"
+
+#: RCCWP_WritePostPage.php:505
+msgid "Loading Data&hellip;"
+msgstr "Chargement données&hellip;"
+
+#: RCCWP_WritePostPage.php:561
+#: RCCWP_WritePostPage.php:1196
+#: RCCWP_WritePostPage.php:1490
+msgid "Are you sure?"
+msgstr "Etes-vous sûr"
+
+#: RCCWP_WritePostPage.php:561
+#: RCCWP_WritePostPage.php:726
+msgid "Remove"
+msgstr "Supprimer"
+
+#: RCCWP_WritePostPage.php:563
+msgid "Note: hold down the SHIFT key as you click to collapse this item before the new item is added"
+msgstr "Remarque: maintenez la touche MAJ enfoncée lorsque vous cliquez à la réduction de ce point avant que le nouvel élément soit ajouté"
+
+#: RCCWP_WritePostPage.php:563
+#: RCCWP_WritePostPage.php:720
+#, fuzzy
+msgid "Add Another"
+msgstr "Ajouter un autre"
+
+#: RCCWP_WritePostPage.php:639
+msgid "what's this?"
+msgstr "Qésako?"
+
+#: RCCWP_WritePostPage.php:647
+msgid "Characters left"
+msgstr "Caractères restants"
+
+#: RCCWP_WritePostPage.php:757
+#: RCCWP_WritePostPage.php:798
+#: RCCWP_WritePostPage.php:838
+#: RCCWP_WritePostPage.php:980
+#: RCCWP_WritePostPage.php:1021
+#: RCCWP_WritePostPage.php:1093
+#: RCCWP_WritePostPage.php:1147
+#: RCCWP_WritePostPage.php:1250
+#: RCCWP_WritePostPage.php:1325
+#: RCCWP_WritePostPage.php:1360
+#: RCCWP_WritePostPage.php:1550
+#: RCCWP_WritePostPage.php:1671
+#: RCCWP_WritePostPage.php:1755
+#, fuzzy
+msgid "This field is required"
+msgstr "Ce champ est obligatoire."
+
+#: RCCWP_WritePostPage.php:824
+#: RCCWP_WritePostPage.php:868
+msgid "--Select--"
+msgstr "--Selectionner--"
+
+#: RCCWP_WritePostPage.php:1227
+msgid "View Current"
+msgstr "Voir l'élèment courant"
+
+#: RCCWP_WritePostPage.php:1710
+#, fuzzy
+msgid "Remove Image"
+msgstr "Retirer l&rsquo;image"
+
+#: RCCWP_WritePostPage.php:1735
+msgid "Set Image"
+msgstr "Mettre une image"
+
+#: RCCWP_WritePostPage.php:1768
+#: RCCWP_WritePostPage.php:1769
+msgid "Magic Fields Attributes"
+msgstr "Attribut Magic Fields"
+
+#: RCCWP_WritePostPage.php:1860
+msgid "Note: Custom fields and groups associated with the selected write panel will be only be displayed once you have saved this page or post."
+msgstr "Remarque: Les champs personnalisés et les groupes associés avec le panneau écriture sélectionnée ne seront seulement affiché une fois que vous avez sauvegardé cette page ou cette article."
+
+#: RCCWP_WritePostPage.php:1861
+msgid "Before saving you may also like to set the <strong>Template</strong> and/or <strong>Parent</strong> in the <strong>Page Attributes</strong> panel to match the defaults for the selected write panel (recommended)"
+msgstr "Avant d'enregistrer, vous aimerez aussi de définir le <strong>modèle</strong> et/ou du <strong>parent</ strong> dans le panneau des <strong>attributs de page</ strong>, pour correspondre à la valeur par défaut du panneau d'écriture sélectionnée (recommandé)"
+
+#: RCCWP_WritePostPage.php:1863
+msgid "Set Page Template"
+msgstr "Définir le modèle de page"
+
+#: RCCWP_WritePostPage.php:1864
+msgid "Set Page Parent"
+msgstr "Définir le parent de cette page"
+
+#~ msgid ""
+#~ "There was an error creating the CSS file for edit in place, please check "
+#~ "the permissions on the files_mf directory."
+#~ msgstr ""
+#~ "Il y a eu une erreur lors de la création du fichier CSS pour l'édition, "
+#~ "merci de vérifier les permissions du dossier files_mf"
+
+#~ msgid "Custom Options List"
+#~ msgstr "Liste des options de personnalisation"
+
+#~ msgid "Other Options"
+#~ msgstr "Autres Options"
+
+#~ msgid "Edit-n-place"
+#~ msgstr "Éditer l'article sur place"
+
+#~ msgid "Edit posts instantly from the post page."
+#~ msgstr "Éditer l'article à partir de sa page."
+
+#~ msgid "EIP highlight color"
+#~ msgstr "Couleur de surlignages EIP"
+
+#~ msgid "Use color to highlight areas EIP"
+#~ msgstr "Utiliser une couleur pour surligner la zone EIP"
+
+#~ msgid "Successful upload!"
+#~ msgstr "Téléchargement réusit!"
+
+#~ msgid "Remove field duplicate"
+#~ msgstr "Supprimer le champ duplicable"
+
+#~ msgid "Remove Group"
+#~ msgstr "Supprimer le groupe"
+
+#~ msgid "Add group duplicate"
+#~ msgstr "Ajouter un groupe duplicable"
+
+#~ msgid "Add field duplicate"
+#~ msgstr "Ajouter un champ duplicable"
+
+#~ msgid "Duplicate"
+#~ msgstr "Dupliquer"
+
+#~ msgid "Custom Fields"
+#~ msgstr "Campos personalizados"
+
+#~ msgid "Add custom fields later by editing this custom group."
+#~ msgstr ""
+#~ "Agrega campos personalizados despues al editar este grupo personlizado"
+
+#~ msgid "Add custom fields later by editing this custom write panel."
+#~ msgstr ""
+#~ "Agrega campos personalizados despues al editar este panel de escritura "
+#~ "personalizado"

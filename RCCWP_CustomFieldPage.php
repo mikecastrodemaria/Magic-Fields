@@ -176,13 +176,13 @@ class RCCWP_CustomFieldPage{
 		<tr valign="top">
 			<th scope="row"><?php _e('Related Type Panel', $mf_domain); ?>:</th>
 			<td><select name="custom-field-related-type-panel-id" id="custom-field-related-type-panel-id">
-                                <option value="-7" <?php if ($custom_field->properties['panel_id']== -7) echo 'selected' ?> >All Categories</option>
-				<option value="-6" <?php if ($custom_field->properties['panel_id']== -6) echo 'selected' ?> >All Posts and Pages</option>
-				<option value="-5" <?php if ($custom_field->properties['panel_id']== -5) echo 'selected' ?> >All Posts and Pages with Write Panel</option>
-				<option value="-4" <?php if ($custom_field->properties['panel_id']== -4) echo 'selected' ?> >All Post</option>
-				<option value="-3" <?php if ($custom_field->properties['panel_id']== -3) echo 'selected' ?> >All Page</option>
-				<option value="-2" <?php if ($custom_field->properties['panel_id']== -2) echo 'selected' ?> >All Post with Write Panel</option>
-				<option value="-1" <?php if ($custom_field->properties['panel_id']== -1) echo 'selected' ?> >All Page with Write Panel</option>
+                <option value="-7" <?php if ($custom_field->properties['panel_id']== -7) echo 'selected' ?> ><?php _e('All Categories',$mf_domain); ?></option>
+				<option value="-6" <?php if ($custom_field->properties['panel_id']== -6) echo 'selected' ?> ><?php _e('All Posts and Pages',$mf_domain); ?></option>
+				<option value="-5" <?php if ($custom_field->properties['panel_id']== -5) echo 'selected' ?> ><?php _e('All Posts and Pages with Write Panel',$mf_domain); ?></option>
+				<option value="-4" <?php if ($custom_field->properties['panel_id']== -4) echo 'selected' ?> ><?php _e('All Post',$mf_domain); ?></option>
+				<option value="-3" <?php if ($custom_field->properties['panel_id']== -3) echo 'selected' ?> ><?php _e('All Page',$mf_domain); ?></option>
+				<option value="-2" <?php if ($custom_field->properties['panel_id']== -2) echo 'selected' ?> ><?php _e('All Post with Write Panel',$mf_domain); ?></option>
+				<option value="-1" <?php if ($custom_field->properties['panel_id']== -1) echo 'selected' ?> ><?php _e('All Page with Write Panel',$mf_domain); ?></option>
 				<?php foreach ($customWritePanels as $panel): ?>
 					<option value="<?php echo $panel->id ?>" <?php if ($custom_field->properties['panel_id']==$panel->id) echo 'selected' ?>><?php echo $panel->name ?></option>
 				<?php endforeach; ?>

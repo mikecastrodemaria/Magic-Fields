@@ -302,13 +302,13 @@ class RCCWP_CreateCustomFieldPage
 		<tr valign="top">
 			<th scope="row"><?php _e('Related Type Panel', $mf_domain); ?>:</th>
 			<td><select name="custom-field-related-type-panel-id" id="custom-field-related-type-panel-id">
-                                <option value="-7">All Categories</option>
-				<option value="-6">All Posts and Pages</option>
-				<option value="-5">All Posts and Pages with Write Panel</option>
-				<option value="-4">All Post</option>
-				<option value="-3">All Page</option>
-				<option value="-2">All Post with Write Panel</option>
-				<option value="-1">All Page with Write Panel</option>
+                <option value="-7"><?php _e('All Categories', $mf_domain);?></option>
+				<option value="-6"><?php _e('All Posts and Pages', $mf_domain);?></option>
+				<option value="-5"><?php _e('All Posts and Pages with Write Panel', $mf_domain);?></option>
+				<option value="-4"><?php _e('All Post', $mf_domain);?></option>
+				<option value="-3"><?php _e('All Page', $mf_domain);?></option>
+				<option value="-2"><?php _e('All Post with Write Panel', $mf_domain);?></option>
+				<option value="-1"><?php _e('All Page with Write Panel', $mf_domain);?></option>
 				<?php foreach ($customWritePanels as $panel): ?>
 					<option value="<?php echo $panel->id ?>"><?php echo $panel->name ?></option>
 				<?php endforeach; ?>

@@ -1674,7 +1674,7 @@ if( isset( $customField->properties['strict-max-length'] ) && $customField->prop
   }
   
   function MediaPhotoInterface($customField, $inputName, $groupCounter, $fieldCounter) {
-  		global $mf_domain,$post;
+  		global $mf_domain,$post,$mf_domain;
 
   		$idField = RCCWP_WritePostPage::changeNameInput($inputName);
 
@@ -1774,7 +1774,7 @@ if( isset( $customField->properties['strict-max-length'] ) && $customField->prop
 
   function attributesBoxContentPage($post) {
     
-    global $wpdb;
+    global $wpdb,$mf_domain;
     
     $single_panel = FALSE;
     $panel_id = get_post_meta($post->ID, "_mf_write_panel_id", TRUE);
@@ -1784,8 +1784,8 @@ if( isset( $customField->properties['strict-max-length'] ) && $customField->prop
     }
       
   ?>
-    <p><strong><?php _e('Write Panel') ?></strong></p>
-    <label class="screen-reader-text" for="parent_id"><?php _e('Write Panel') ?></label>
+    <p><strong><?php _e('Write Panel', $mf_domain) ?></strong></p>
+    <label class="screen-reader-text" for="parent_id"><?php _e('Write Panel', $mf_domain) ?></label>
     <?php 
   
       // get a list of the write panels 
@@ -1857,14 +1857,14 @@ if( isset( $customField->properties['strict-max-length'] ) && $customField->prop
 
 
     <div id="rc-cwp-set-buttons">
-      <p><?php _e('Note: Custom fields and groups associated with the selected write panel will be only be displayed once you have saved this page or post.')?></p>
-      <p><?php _e('Before saving you may also like to set the <strong>Template</strong> and/or <strong>Parent</strong> in the <strong>Page Attributes</strong> panel to match the defaults for the selected write panel (recommended)') ?></p>
+      <p><?php _e('Note: Custom fields and groups associated with the selected write panel will be only be displayed once you have saved this page or post.', $mf_domain)?></p>
+      <p><?php _e('Before saving you may also like to set the <strong>Template</strong> and/or <strong>Parent</strong> in the <strong>Page Attributes</strong> panel to match the defaults for the selected write panel (recommended)', $mf_domain) ?></p>
       <div class="inside">
         <input class="button" type="button" id="rc-cwp-set-page-template" value="<?php _e('Set Page Template') ?>" />
         <input class="button" type="button" id="rc-cwp-set-page-parent" value="<?php _e('Set Page Parent') ?>" />
       </div>
       <div class="mf-panel-info">
-      <h5 class="mf-hd-panel-info">Defaults for the selected write panel</h5>
+      <h5 class="mf-hd-panel-info"><?php _e('Defaults for the selected write panel', $mf_domain) ?></h5>
       <p>
         Template: <span id="mf-page-template-display"></span><br />
         Parent: <span id="mf-page-parent-display"></span>
@@ -1889,8 +1889,8 @@ if( isset( $customField->properties['strict-max-length'] ) && $customField->prop
     }
       
   ?>
-    <p><strong><?php _e('Write Panel') ?></strong></p>
-    <label class="screen-reader-text" for="parent_id"><?php _e('Write Panel') ?></label>
+    <p><strong><?php _e('Write Panel', $mf_domain) ?></strong></p>
+    <label class="screen-reader-text" for="parent_id"><?php _e('Write Panel', $mf_domain) ?></label>
     <?php 
   
       // get a list of the write panels 
